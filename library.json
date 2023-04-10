@@ -1,6 +1,6 @@
 {
     "name": "XPLArduPro",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "description": "Easy-to-start toolbox to create flight simulation devices based on the XPLPro driver by CuriosityWorkshop",
     "keywords": "xplane, flighsim, arduino",
     "authors": [
@@ -8,6 +8,9 @@
             "name": "Martin Ruskowski",
             "email": "martin@ruskowski.de",
             "maintainer": true
+        },
+        {
+            "name": "Giorgio Croci Candiani"
         }
     ],
     "license": "GPL-3.0-or-later",
@@ -17,6 +20,6 @@
         "adafruit/Adafruit BusIO": "^1.14.1",
         "martinrusk/XPLPro": "^0.4.0"
     },
-    "frameworks": "*",
-    "platforms": "*"
+    "frameworks": "Arduino",
+    "platforms": ["atmelavr", "espressif8266", "espressif32"]
 }
